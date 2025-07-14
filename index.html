@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Professional Web Design & SEO Services for Small Businesses</title>
-  <link rel="icon" type="image/jpeg" href="https://i.snipboard.io/7JP0nh.jpg">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/icon.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW2BV60KMY"></script>
   <script>
@@ -19,85 +19,137 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
+      background: #000;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .fade-in {
+      animation: fadeIn 1.2s ease-in-out both;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
 
-<body class="bg-black text-white">
+<body class="text-white">
+  <!-- Navigation Bar -->
+  <nav class="glass sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+    <a href="#" class="flex items-center gap-2">
+      <img src="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/logo.png" alt="Logo" class="w-10">
+    </a>
+    <div class="space-x-6 hidden md:flex">
+      <a href="#services" class="hover:underline">Services</a>
+      <a href="#projects" class="hover:underline">Projects</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+  </nav>
+
   <!-- Hero Section -->
-  <section class="flex flex-col items-center text-center px-6 py-32 relative overflow-hidden">
-    <img src="https://i.snipboard.io/IH4USr.jpg" alt="Logo" class="w-32 mb-6">
-    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">Web Design & SEO <br class="hidden md:block">for Small Businesses</h1>
-    <p class="text-lg md:text-xl text-gray-300 max-w-2xl">Grow your business with clean, modern websites and SEO that drives traffic.</p>
-    <div class="mt-8 flex gap-4">
-      <a href="#services" class="px-6 py-3 border border-white hover:bg-white hover:text-black transition rounded-full">Our Services</a>
-      <a href="#contact" class="px-6 py-3 border border-white hover:bg-white hover:text-black transition rounded-full">Get in Touch</a>
+  <section class="glass mx-4 mt-12 rounded-3xl px-8 py-24 text-center fade-in">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Web Design & SEO<br>for Small Businesses</h1>
+    <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">Grow your business with clean, modern websites and SEO that drives traffic.</p>
+    <div class="flex justify-center gap-4">
+      <a href="#services" class="px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition">Our Services</a>
+      <a href="#contact" class="px-6 py-3 border border-white hover:bg-white hover:text-black rounded-full transition">Get in Touch</a>
     </div>
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="px-6 py-20 max-w-6xl mx-auto">
-    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Services We Offer</h2>
-    <div class="grid md:grid-cols-2 gap-12">
-      <div class="bg-white text-black rounded-2xl p-8 shadow-xl">
+  <section id="services" class="max-w-6xl mx-auto px-6 py-24 fade-in">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Services We Offer</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="glass text-white p-8 rounded-2xl hover:bg-white/10 transition">
         <h3 class="text-2xl font-bold mb-2">Web Design</h3>
-        <p class="text-gray-700">Mobile-friendly, fast, and modern websites that look amazing and convert visitors into clients.</p>
+        <p class="text-gray-300">Mobile-friendly, fast, and modern websites that look amazing and convert visitors into clients.</p>
       </div>
-      <div class="bg-white text-black rounded-2xl p-8 shadow-xl">
+      <div class="glass text-white p-8 rounded-2xl hover:bg-white/10 transition">
         <h3 class="text-2xl font-bold mb-2">SEO</h3>
-        <p class="text-gray-700">Rank higher on Google with our SEO strategies designed to bring more customers to your business.</p>
+        <p class="text-gray-300">Rank higher on Google with our SEO strategies designed to bring more customers to your business.</p>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section class="px-6 py-20 max-w-7xl mx-auto">
-    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Featured Projects</h2>
+  <section id="projects" class="max-w-7xl mx-auto px-6 py-24 fade-in">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Featured Projects</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <a href="https://ninaslaundry.com.au/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://ninaslaundry.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">Nina's Laundry</h3>
-        <p class="text-sm text-gray-700">Laundry services website</p>
+        <p class="text-sm text-gray-400">Laundry services website</p>
       </a>
-      <a href="https://powercraftelectrical.com.au/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://powercraftelectrical.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">Powercraft Electrical</h3>
-        <p class="text-sm text-gray-700">Electrician website</p>
+        <p class="text-sm text-gray-400">Electrician website</p>
       </a>
-      <a href="https://thriveflowers.com.au/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://thriveflowers.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">Thrive Flowers</h3>
-        <p class="text-sm text-gray-700">Florist website</p>
+        <p class="text-sm text-gray-400">Florist website</p>
       </a>
-      <a href="https://rhinoplay.com.au/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://rhinoplay.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">RhinoPlay</h3>
-        <p class="text-sm text-gray-700">Playground design company</p>
+        <p class="text-sm text-gray-400">Playground design company</p>
       </a>
-      <a href="https://prplumb.com.au/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://prplumb.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">PR Plumb</h3>
-        <p class="text-sm text-gray-700">Plumbing business</p>
+        <p class="text-sm text-gray-400">Plumbing business</p>
       </a>
-      <a href="https://overheadelectrical.com.au/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://overheadelectrical.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">Overhead Electrical</h3>
-        <p class="text-sm text-gray-700">Electrician business</p>
+        <p class="text-sm text-gray-400">Electrician business</p>
       </a>
-      <a href="https://afknox.com/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://afknox.com/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">AF Knox</h3>
-        <p class="text-sm text-gray-700">Fitness brand</p>
+        <p class="text-sm text-gray-400">Fitness brand</p>
       </a>
-      <a href="https://lokaway.com/" target="_blank" class="bg-white text-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+      <a href="https://lokaway.com/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
         <h3 class="text-xl font-semibold">Lokaway</h3>
-        <p class="text-sm text-gray-700">Safe & security solutions</p>
+        <p class="text-sm text-gray-400">Safe & security solutions</p>
       </a>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="px-6 py-24 text-center max-w-xl mx-auto">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">Contact Us</h2>
-    <p class="text-lg mb-4">Got a project? Let’s chat.</p>
-    <p class="text-lg mb-2">📞 <strong>International Clients:</strong> <a href="tel:+16479923805" class="underline">+1 (647) 992 3805</a></p>
-    <p class="text-lg mb-2">📞 <strong>Sri Lankan Clients:</strong> <a href="tel:+94772723805" class="underline">+94 (77) 272 3805</a></p>
-    <p class="text-lg mb-4">Available on WhatsApp too!</p>
-    <p class="text-lg">📧 <a href="mailto:info@mushthaq.com" class="underline">info@mushthaq.com</a></p>
+  <!-- CTA Section -->
+  <section class="glass max-w-5xl mx-auto my-20 text-center px-6 py-16 rounded-3xl fade-in">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Grow Your Business?</h2>
+    <p class="text-lg mb-8 text-gray-300">Let's build a high-performing website and get your business to the top of Google search results.</p>
+    <a href="#contact" class="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition">Schedule a Free Consultation</a>
   </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="glass px-8 py-24 rounded-3xl max-w-3xl mx-auto text-center fade-in">
+  <h2 class="text-4xl font-bold mb-6">Let's Talk</h2>
+  <p class="text-lg text-gray-300 mb-10">Have a project in mind? I'm just a message away. Let's build something great together.</p>
+  <div class="flex flex-col gap-4 items-center">
+    <div class="flex items-center gap-3">
+      <span class="text-xl">📞</span>
+      <span><strong>International:</strong> <a href="tel:+16479923805" class="underline hover:text-gray-200 transition">+1 (647) 992 3805</a></span>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-xl">📞</span>
+      <span><strong>Sri Lanka:</strong> <a href="tel:+94772723805" class="underline hover:text-gray-200 transition">+94 (77) 272 3805</a></span>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-xl">💬</span>
+      <span>Available on <strong>WhatsApp</strong></span>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-xl">📧</span>
+      <a href="mailto:info@mushthaq.com" class="underline hover:text-gray-200 transition">info@mushthaq.com</a>
+    </div>
+  </div>
+</section>
 </body>
 
 </html>
