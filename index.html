@@ -1,155 +1,786 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
-
+<html lang="en">
 <head>
-  <meta name="description" content="Boost your small business with expert web design and SEO services. We build fast, mobile-friendly websites and help you rank higher on Google to attract more customers.">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Web Design & SEO Services for Small Businesses</title>
-  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/icon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW2BV60KMY"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-YW2BV60KMY');
-  </script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #000;
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW2BV60KMY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YW2BV60KMY');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushthaq.com - Full Stack Digital Marketing Services for Small Businesses</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional digital marketing services for small businesses. Expert web design, SEO optimization, social media management, and NAP services to grow your business online.">
+    <meta name="keywords" content="digital marketing, web design, SEO, social media marketing, NAP services, small business marketing, online marketing">
+    <meta name="author" content="Mushthaq.com">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mushthaq.com - Full Stack Digital Marketing Services">
+    <meta property="og:description" content="Professional digital marketing services for small businesses. Expert web design, SEO, social media, and NAP services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mushthaq.com">
+    <meta property="og:image" content="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/logo.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mushthaq.com - Full Stack Digital Marketing Services">
+    <meta name="twitter:description" content="Professional digital marketing services for small businesses. Expert web design, SEO, social media, and NAP services.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/logo.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mushthaq.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Structured Data for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mushthaq.com",
+        "alternateName": "Mushthaq Digital Marketing",
+        "url": "https://mushthaq.com",
+        "logo": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/icon.png",
+        "image": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/portrait.jpg",
+        "description": "Professional digital marketing services for small businesses. Expert web design, SEO optimization, social media management, and NAP services to grow your business online.",
+        "founder": {
+            "@type": "Person",
+            "name": "Mushthaq",
+            "jobTitle": "Digital Marketing Strategist & Full-Stack Developer",
+            "image": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/portrait.jpg"
+        },
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+1-647-992-3805",
+                "contactType": "customer service",
+                "areaServed": "Worldwide",
+                "availableLanguage": "English"
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+94-77-272-3805",
+                "contactType": "customer service",
+                "areaServed": "LK",
+                "availableLanguage": "English"
+            },
+            {
+                "@type": "ContactPoint",
+                "email": "info@mushthaq.com",
+                "contactType": "customer service",
+                "areaServed": "Worldwide"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CA"
+        },
+        "sameAs": [
+            "https://mushthaq.com"
+        ],
+        "serviceArea": {
+            "@type": "Place",
+            "name": "Worldwide"
+        },
+        "priceRange": "$$",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "100",
+            "bestRating": "5",
+            "worstRating": "1"
+        }
     }
-    .glass {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://mushthaq.com",
+        "name": "Mushthaq.com",
+        "description": "Full Stack Digital Marketing Services for Small Businesses",
+        "url": "https://mushthaq.com",
+        "telephone": "+1-647-992-3805",
+        "email": "info@mushthaq.com",
+        "logo": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/icon.png",
+        "image": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/portrait.jpg",
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "serviceArea": {
+            "@type": "Place",
+            "name": "Worldwide"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Digital Marketing Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Web Design",
+                        "description": "Modern, responsive websites that convert visitors into customers"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "SEO Services",
+                        "description": "Boost your search engine rankings and drive organic traffic"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Social Media Marketing",
+                        "description": "Engage your audience and build brand awareness"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "NAP Services",
+                        "description": "Optimize your Name, Address, and Phone listings across directories"
+                    }
+                }
+            ]
+        }
     }
-    .fade-in {
-      animation: fadeIn 1.2s ease-in-out both;
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Mushthaq.com - Digital Marketing Agency",
+        "alternateName": "Mushthaq Digital Marketing",
+        "description": "Professional digital marketing agency specializing in web design, SEO, social media marketing, and NAP services for small businesses worldwide.",
+        "url": "https://mushthaq.com",
+        "logo": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/icon.png",
+        "image": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/portrait.jpg",
+        "telephone": "+1-647-992-3805",
+        "email": "info@mushthaq.com",
+        "priceRange": "$$",
+        "serviceType": [
+            "Web Design",
+            "SEO Services", 
+            "Digital Marketing",
+            "Social Media Marketing",
+            "NAP Services",
+            "Website Development",
+            "Online Marketing"
+        ],
+        "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
+        },
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Professional Experience",
+            "name": "10+ Years Digital Marketing Experience"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "100",
+            "bestRating": "5"
+        }
     }
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mushthaq.com",
+        "alternateName": "Mushthaq Digital Marketing",
+        "url": "https://mushthaq.com",
+        "description": "Full Stack Digital Marketing Services for Small Businesses",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Mushthaq.com",
+            "logo": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/logo.png"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://mushthaq.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
     }
-  </style>
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mushthaq",
+        "jobTitle": "Digital Marketing Strategist & Full-Stack Developer",
+        "description": "Founder of Mushthaq.com with over a decade of experience in digital marketing and web development, helping small businesses transform their online presence.",
+        "image": "https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/portrait.jpg",
+        "url": "https://mushthaq.com",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Mushthaq.com"
+        },
+        "knowsAbout": [
+            "Digital Marketing",
+            "Web Design",
+            "SEO",
+            "Social Media Marketing",
+            "Web Development",
+            "Small Business Marketing"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-647-992-3805",
+            "email": "info@mushthaq.com",
+            "contactType": "professional"
+        }
+    }
+    </script>
+    
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        }
+        
+        .service-card {
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            background: #1f1f1f;
+            border: 1px solid #333;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+            border-color: #3b82f6;
+        }
+        
+        .nav-blur {
+            backdrop-filter: blur(20px);
+            background: rgba(0, 0, 0, 0.95);
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        .dark-card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+        }
+        
+        .dark-card:hover {
+            border-color: #3b82f6;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-text {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
 </head>
+<body class="smooth-scroll bg-black text-white">
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-lg z-50">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 nav-blur border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <img src="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/logo.png" alt="Mushthaq.com Logo" class="h-10 w-auto">
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-white hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="#services" class="text-white hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">Services</a>
+                        <a href="#about" class="text-white hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">About</a>
+                        <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition-colors">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white hover:text-blue-400 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-black border-t border-gray-700">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-base font-medium text-white hover:text-blue-400">Home</a>
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-white hover:text-blue-400">Services</a>
+                <a href="#about" class="block px-3 py-2 text-base font-medium text-white hover:text-blue-400">About</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-white hover:text-blue-400">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-<body class="text-white">
-  <!-- Navigation Bar -->
-  <nav class="glass sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
-    <a href="#" class="flex items-center gap-2">
-      <img src="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/logo.png" alt="Logo" class="w-10">
-    </a>
-    <div class="space-x-6 hidden md:flex">
-      <a href="#services" class="hover:underline">Services</a>
-      <a href="#projects" class="hover:underline">Projects</a>
-      <a href="#contact" class="hover:underline">Contact</a>
-    </div>
-  </nav>
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section id="home" class="hero-gradient min-h-screen flex items-center justify-center text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+            <h1 class="hero-text text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                Full Stack Digital Marketing <span class="block text-blue-400">for Small Businesses</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light opacity-90 max-w-2xl mx-auto">
+                Transform your business with professional web design, SEO optimization, social media management, and NAP services.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#services" class="bg-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-700 transition-colors inline-block focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800" aria-label="Explore our digital marketing services">
+                    Explore Services
+                </a>
+                <a href="#contact" class="border-2 border-blue-400 text-blue-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors inline-block focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800" aria-label="Get started with our services">
+                    Get Started
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
 
-  <!-- Hero Section -->
-  <section class="glass mx-4 mt-12 rounded-3xl px-8 py-24 text-center fade-in">
-    <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Web Design & SEO<br>for Small Businesses</h1>
-    <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">Grow your business with clean, modern websites and SEO that drives traffic.</p>
-    <div class="flex justify-center gap-4">
-      <a href="#services" class="px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition">Our Services</a>
-      <a href="#contact" class="px-6 py-3 border border-white hover:bg-white hover:text-black rounded-full transition">Get in Touch</a>
-    </div>
-  </section>
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Our Services</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Comprehensive digital marketing solutions designed to help your small business thrive online.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Web Design -->
+                <div class="service-card rounded-2xl p-8 shadow-lg hover:shadow-xl">
+                    <div class="w-16 h-16 bg-blue-600 bg-opacity-20 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Web Design</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Modern, responsive websites that convert visitors into customers. Beautiful designs optimized for all devices.
+                    </p>
+                </div>
+                
+                <!-- SEO -->
+                <div class="service-card rounded-2xl p-8 shadow-lg hover:shadow-xl">
+                    <div class="w-16 h-16 bg-blue-600 bg-opacity-20 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">SEO</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Boost your search engine rankings and drive organic traffic with our proven SEO strategies and optimization techniques.
+                    </p>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="service-card rounded-2xl p-8 shadow-lg hover:shadow-xl">
+                    <div class="w-16 h-16 bg-blue-600 bg-opacity-20 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Social Media</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Engage your audience and build brand awareness with strategic social media management and content creation.
+                    </p>
+                </div>
+                
+                <!-- NAP -->
+                <div class="service-card rounded-2xl p-8 shadow-lg hover:shadow-xl">
+                    <div class="w-16 h-16 bg-blue-600 bg-opacity-20 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">NAP Services</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Optimize your Name, Address, and Phone listings across directories to improve local search visibility and credibility.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="max-w-6xl mx-auto px-6 py-24 fade-in">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Services We Offer</h2>
-    <div class="grid md:grid-cols-2 gap-10">
-      <div class="glass text-white p-8 rounded-2xl hover:bg-white/10 transition">
-        <h3 class="text-2xl font-bold mb-2">Web Design</h3>
-        <p class="text-gray-300">Mobile-friendly, fast, and modern websites that look amazing and convert visitors into clients.</p>
-      </div>
-      <div class="glass text-white p-8 rounded-2xl hover:bg-white/10 transition">
-        <h3 class="text-2xl font-bold mb-2">SEO</h3>
-        <p class="text-gray-300">Rank higher on Google with our SEO strategies designed to bring more customers to your business.</p>
-      </div>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                        Why Choose Mushthaq.com?
+                    </h2>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        We specialize in helping small businesses establish a strong digital presence. Our comprehensive approach combines cutting-edge technology with proven marketing strategies to deliver measurable results.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold text-white">Full-Stack Expertise</h4>
+                                <p class="text-gray-300">Complete digital marketing solutions under one roof</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold text-white">Small Business Focus</h4>
+                                <p class="text-gray-300">Tailored strategies for small business growth and success</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-semibold text-white">Proven Results</h4>
+                                <p class="text-gray-300">Data-driven approach with measurable outcomes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="grid grid-cols-1 gap-6">
+                        <!-- Happy Clients -->
+                        <div class="dark-card rounded-2xl p-6 text-white text-center hover:shadow-xl transition-all">
+                            <div class="text-4xl font-bold mb-2 text-blue-400">100+</div>
+                            <div class="text-lg text-gray-300">Happy Clients</div>
+                        </div>
+                        
+                        <!-- Client Satisfaction -->
+                        <div class="dark-card rounded-2xl p-6 text-white text-center hover:shadow-xl transition-all">
+                            <div class="text-4xl font-bold mb-2 text-blue-400">95%</div>
+                            <div class="text-lg text-gray-300">Client Satisfaction</div>
+                        </div>
+                        
+                        <!-- Support Available -->
+                        <div class="dark-card rounded-2xl p-6 text-white text-center hover:shadow-xl transition-all">
+                            <div class="text-4xl font-bold mb-2 text-blue-400">24/7</div>
+                            <div class="text-lg text-gray-300">Support Available</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="max-w-7xl mx-auto px-6 py-24 fade-in">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Featured Projects</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <a href="https://ninaslaundry.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">Nina's Laundry</h3>
-        <p class="text-sm text-gray-400">Laundry services website</p>
-      </a>
-      <a href="https://powercraftelectrical.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">Powercraft Electrical</h3>
-        <p class="text-sm text-gray-400">Electrician website</p>
-      </a>
-      <a href="https://thriveflowers.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">Thrive Flowers</h3>
-        <p class="text-sm text-gray-400">Florist website</p>
-      </a>
-      <a href="https://rhinoplay.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">RhinoPlay</h3>
-        <p class="text-sm text-gray-400">Playground design company</p>
-      </a>
-      <a href="https://prplumb.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">PR Plumb</h3>
-        <p class="text-sm text-gray-400">Plumbing business</p>
-      </a>
-      <a href="https://overheadelectrical.com.au/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">Overhead Electrical</h3>
-        <p class="text-sm text-gray-400">Electrician business</p>
-      </a>
-      <a href="https://afknox.com/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">AF Knox</h3>
-        <p class="text-sm text-gray-400">Fitness brand</p>
-      </a>
-      <a href="https://lokaway.com/" target="_blank" class="glass text-white p-6 rounded-xl hover:bg-white/10 hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">Lokaway</h3>
-        <p class="text-sm text-gray-400">Safe & security solutions</p>
-      </a>
-    </div>
-  </section>
+    <!-- About the Founder Section -->
+    <section class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Founder Image -->
+                <div class="relative flex justify-center lg:justify-start">
+                    <!-- Main circular photo -->
+                    <div class="relative w-80 h-80 lg:w-96 lg:h-96">
+                        <div class="w-full h-full rounded-full overflow-hidden shadow-2xl border-4 border-blue-500/30 relative z-10">
+                            <img src="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/portrait.jpg" alt="Mushthaq - Founder of Mushthaq.com" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+                        </div>
+                        
+                        <!-- Floating circles with animation -->
+                        <div class="absolute -top-8 -right-8 w-16 h-16 bg-blue-600 rounded-full opacity-80 animate-bounce" style="animation-delay: 0s; animation-duration: 3s;"></div>
+                        <div class="absolute -bottom-6 -left-6 w-12 h-12 bg-blue-400 rounded-full opacity-70 animate-bounce" style="animation-delay: 1s; animation-duration: 4s;"></div>
+                        <div class="absolute top-1/4 -left-10 w-8 h-8 bg-blue-300 rounded-full opacity-60 animate-bounce" style="animation-delay: 2s; animation-duration: 3.5s;"></div>
+                        <div class="absolute bottom-1/3 -right-12 w-10 h-10 bg-blue-500 rounded-full opacity-75 animate-bounce" style="animation-delay: 0.5s; animation-duration: 4.5s;"></div>
+                        <div class="absolute top-1/2 -right-6 w-6 h-6 bg-blue-200 rounded-full opacity-50 animate-bounce" style="animation-delay: 1.5s; animation-duration: 3.2s;"></div>
+                        <div class="absolute -top-4 left-1/4 w-14 h-14 bg-blue-700 rounded-full opacity-65 animate-bounce" style="animation-delay: 2.5s; animation-duration: 3.8s;"></div>
+                        
+                        <!-- Glowing background circles -->
+                        <div class="absolute -top-12 -right-12 w-32 h-32 bg-blue-600 rounded-full opacity-10 blur-2xl animate-pulse"></div>
+                        <div class="absolute -bottom-12 -left-12 w-40 h-40 bg-blue-400 rounded-full opacity-8 blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+                        <div class="absolute top-1/2 -left-16 w-24 h-24 bg-blue-500 rounded-full opacity-12 blur-xl animate-pulse" style="animation-delay: 2s;"></div>
+                    </div>
+                </div>
+                
+                <!-- Founder Content -->
+                <div>
+                    <div class="mb-6">
+                        <span class="text-blue-400 font-semibold text-lg">Meet the Founder</span>
+                        <h2 class="text-4xl md:text-5xl font-bold text-white mt-2 mb-4">Mushthaq</h2>
+                        <p class="text-xl text-blue-400 font-medium">Digital Marketing Strategist & Full-Stack Developer</p>
+                    </div>
+                    
+                    <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                        With over a decade of experience in digital marketing and web development, I've helped hundreds of small businesses transform their online presence and achieve sustainable growth. My passion lies in combining technical expertise with strategic marketing insights to deliver measurable results.
+                    </p>
+                    
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                        I founded Mushthaq.com with a simple mission: to make professional digital marketing accessible and affordable for small businesses. Every strategy I develop is tailored to your unique needs, ensuring maximum ROI and long-term success.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-blue-600 bg-opacity-20 rounded-xl flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-semibold">10+ Years Experience</h4>
+                                <p class="text-gray-400 text-sm">Digital Marketing & Development</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-blue-600 bg-opacity-20 rounded-xl flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-semibold">Results-Driven</h4>
+                                <p class="text-gray-400 text-sm">Proven Track Record</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-blue-600 bg-opacity-20 rounded-xl flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-semibold">Client-Focused</h4>
+                                <p class="text-gray-400 text-sm">Personalized Approach</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-blue-600 bg-opacity-20 rounded-xl flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-semibold">Global Reach</h4>
+                                <p class="text-gray-400 text-sm">International & Local Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block text-center focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900">
+                            Let's Work Together
+                        </a>
+                        <a href="https://cal.com/mushthaq.com/30min" target="_blank" rel="noopener noreferrer" class="border-2 border-blue-400 text-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors inline-block text-center focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900">
+                            Schedule a Call
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- CTA Section -->
-  <section class="glass max-w-5xl mx-auto my-20 text-center px-6 py-16 rounded-3xl fade-in">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Grow Your Business?</h2>
-    <p class="text-lg mb-8 text-gray-300">Let's build a high-performing website and get your business to the top of Google search results.</p>
-    <a href="#contact" class="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition">Schedule a Free Consultation</a>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-black text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Ready to Grow Your Business?</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Let's discuss how we can help transform your digital presence and drive real results for your business.
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- International Phone -->
+                    <div class="dark-card rounded-2xl p-8 text-center hover:shadow-xl transition-all">
+                        <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-white mb-3">International Clients</h4>
+                        <a href="tel:+16479923805" class="text-blue-400 hover:text-blue-300 text-lg font-medium transition-colors">
+                            +1 (647) 992-3805
+                        </a>
+                    </div>
+                    
+                    <!-- Sri Lankan Phone -->
+                    <div class="dark-card rounded-2xl p-8 text-center hover:shadow-xl transition-all">
+                        <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-white mb-3">Sri Lankan Clients</h4>
+                        <a href="tel:+94772723805" class="text-blue-400 hover:text-blue-300 text-lg font-medium transition-colors">
+                            +94 (77) 272-3805
+                        </a>
+                    </div>
+                    
+                    <!-- Email Support -->
+                    <div class="dark-card rounded-2xl p-8 text-center hover:shadow-xl transition-all">
+                        <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-white mb-3">Email Support</h4>
+                        <a href="mailto:info@mushthaq.com" class="text-blue-400 hover:text-blue-300 text-lg font-medium transition-colors">
+                            info@mushthaq.com
+                        </a>
+                    </div>
+                    
+                    <!-- Schedule a Call -->
+                    <div class="dark-card rounded-2xl p-8 text-center hover:shadow-xl transition-all">
+                        <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-white mb-3">Schedule a Call</h4>
+                        <a href="https://cal.com/mushthaq.com/30min" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-black">
+                            Book 30min Call
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
 
-  <!-- Contact Section -->
-  <section id="contact" class="glass px-8 py-24 rounded-3xl max-w-3xl mx-auto text-center fade-in">
-  <h2 class="text-4xl font-bold mb-6">Let's Talk</h2>
-  <p class="text-lg text-gray-300 mb-10">Have a project in mind? I'm just a message away. Let's build something great together.</p>
-  <div class="flex flex-col gap-4 items-center">
-    <div class="flex items-center gap-3">
-      <span class="text-xl">📞</span>
-      <span><strong>International:</strong> <a href="tel:+16479923805" class="underline hover:text-gray-200 transition">+1 (647) 992 3805</a></span>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xl">📞</span>
-      <span><strong>Sri Lanka:</strong> <a href="tel:+94772723805" class="underline hover:text-gray-200 transition">+94 (77) 272 3805</a></span>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xl">💬</span>
-      <span>Available on <strong>WhatsApp</strong></span>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xl">📧</span>
-      <a href="mailto:info@mushthaq.com" class="underline hover:text-gray-200 transition">info@mushthaq.com</a>
-    </div>
-  </div>
-</section>
-</body>
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="https://raw.githubusercontent.com/mushthaqcom/mushthaq.github.io/refs/heads/main/logo.png" alt="Mushthaq.com Logo" class="h-8 w-auto mr-3">
+                    <span class="text-lg font-semibold">Mushthaq.com</span>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-gray-400 text-sm">
+                        © 2024 Mushthaq.com. All rights reserved.
+                    </p>
+                    <p class="text-gray-400 text-sm mt-1">
+                        Full Stack Digital Marketing Services for Small Businesses
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+        
+
+        
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+        
+        // Add animation on scroll for service cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe service cards
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9671674d8259a253',t:'MTc1Mzg0MjMwNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
